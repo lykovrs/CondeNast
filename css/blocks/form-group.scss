@@ -1,0 +1,38 @@
+@import "../bootstrap/variables";
+
+.form-group {
+
+  &__label {
+    line-height: 42px;
+  }
+
+  &__control {
+    text-align: center;
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: -99px;
+    left: 15px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: $screen-sm) {
+
+  .form-group {
+    &__wrapper {
+      text-align: right;
+    }
+
+    &__control {
+      text-align: left;
+    }
+    &__btn {
+      position: static;
+      bottom: auto;
+    }
+  }
+}
+
+

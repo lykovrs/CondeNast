@@ -1,0 +1,22 @@
+{
+  "name": "CondeNast",
+  "authors": [
+    "Roman Lykov <lykovrs@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-bootstrap-datetimepicker": "^0.14.4",
+    "bootstrap-sass": "^3.3.6"
+  }
+}

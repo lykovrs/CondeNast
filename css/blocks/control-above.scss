@@ -1,0 +1,21 @@
+.control-above {
+  position: relative;
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: $input-border;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: black;
+      box-shadow: none;
+    }
+
+    &:first-child {
+      display: none;
+    }
+  }
+}

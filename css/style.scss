@@ -1,0 +1,20 @@
+@import "bootstrap/bootstrap";
+@import "bootstrap/variables";
+@import "blocks/timepicker";
+
+body {
+  background-color: #ecf0f1;
+  min-width: 320px;
+}
+
+.container {
+  border: 1px solid #e3e3e3;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+@import "blocks/page-header";
+@import "blocks/form-group";
+@import "blocks/form-control";
+@import "blocks/uib-timepicker";
+@import "blocks/control-above";
